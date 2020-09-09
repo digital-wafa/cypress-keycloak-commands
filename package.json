@@ -1,0 +1,30 @@
+{
+  "name": "@digital-wafa/cypress-keycloak-commands",
+  "version": "1.0.0",
+  "description": "a keycloak commands list to use in cypress e2e tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digital-wafa/cypress-keycloak-commands.git"
+  },
+  "keywords": [
+    "keycloak",
+    "cypress",
+    "-commands"
+  ],
+  "author": "Abdelmounim JAKIM <abdelmounim.jakim@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/digital-wafa/cypress-keycloak-commands/issues"
+  },
+  "homepage": "https://github.com/digital-wafa/cypress-keycloak-commands#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "cypress": ">= 4.8.0"
+  }
+}
