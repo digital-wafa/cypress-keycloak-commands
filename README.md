@@ -27,7 +27,7 @@ Add the following environment variables to your `cypress.json` file
 Import the commands in your `cypress/support/commands.js` file
 
 ```javascript
-import `@digital-wafa/cypress-keycloak-commands`;
+require("@digital-wafa/cypress-keycloak-commands");
 ```
 
 Finaly inside your cypress tests files 
@@ -39,3 +39,8 @@ cy.login(username, password)
 // to logout
 cy.logout()
 ```
+
+## Acknowledgement
+
+this library is based on this blog [post](https://vrockai.github.io/blog/2017/10/28/cypress-keycloak-intregration/).
+

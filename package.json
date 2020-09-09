@@ -1,6 +1,6 @@
 {
   "name": "@digital-wafa/cypress-keycloak-commands",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a keycloak commands list to use in cypress e2e tests",
   "main": "index.js",
   "scripts": {
